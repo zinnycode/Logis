@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logisInput{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logisInput input, .logisInput button{
+    border: none;
+    border-radius: 7px;
+}
+
+.logisInput button{
+    width: 150px;
+}
+
+.logisInput input:focus{
+    border: none !important;
+}
+
+#navsection{
+    /* background-color:#0E1D34 !important; */
+    background: linear-gradient(#0e1d345e, #0e1d345e), url(/img/demo-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-links :hover{
+    color: #fff !important;
+}
+
+.line{
+    background-color: blue;
+    height: 3px;
+    width: 20px;
+    margin: 0 auto 10px;
+}
+
+.navbar-nav{
+    gap: -2rem;
+}
+
+.luggage:hover{
+    color: blue !important;
+}
+
+.about-us{
+    color: blue !important;
+
+}
+.organization-chart-h4{
+    color: #2A4268 !important;
+}
+.storage{
+    color: #001973 !important;
+}
+.Logistics{
+    color: #001973 !important;
+}
+.Cargo{
+    color: #001973 !important;
+}
+.our-services{
+color: #001973 !important;
+}
+.pricing-h1{
+    color: #001973 !important;
+    border-bottom: 2px solid blue ;
+    padding-bottom: 5px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
