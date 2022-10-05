@@ -53,6 +53,12 @@ a{
     width: 20px;
     margin: 0 auto 10px;
 }
+.linee{
+    background-color: blue;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 10px;
+}
 
 .navbar-nav{
     gap: -2rem;
@@ -82,12 +88,92 @@ a{
 color: #001973 !important;
 }
 .pricing-h1{
-    color: #001973 !important;
-    border-bottom: 2px solid blue ;
-    padding-bottom: 5px;
+    
     display: flex ;
     align-items: center;
     justify-content: center;
     
     
+}
+
+
+#backgroundimg{
+    background: linear-gradient(#0e1d34cb, #0e1d34cb), url(/img/ship-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#fivestar{
+    background: linear-gradient(#0e1d349a, #0e1d349a), url(/img/testimonials-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .background-text{
+    padding:100px !important;
+} */
+
+.call-2-action{
+    color: #fff !important;
+    border:2px solid #fff !important;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+   
+}
+.call-2-action:hover{
+    background-color: rgb(3, 3, 207) !important;
+    border:2px solid transparent !important;
+}
+
+#pricing .card{
+    border: none !important;
+}
+
+.ruleover, .ruleover2{
+    text-decoration: line-through;
+}
+
+.free-plan{
+    border-top: 5px solid blue !important;
+    border-radius: 10px;
+}
+
+.woman1 img{
+    border-radius: 100%;
+    width: 10%;
+    border:10px solid transparent !important;
+
+}
+
+.lineee{
+    background-color: blue;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 10px;
+}
+#copyright{
+    background-color: rgb(14,29,52) !important;
+    padding: 40px 0 20px 0 !important;
+}
+
+.col-3 a{
+    display: grid !important;
+}
+
+.col-3 a:hover{
+    color: #fff !important;
 }
