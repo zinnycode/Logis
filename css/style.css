@@ -165,14 +165,17 @@ color: #001973 !important;
     width: 60px;
     margin: 0 auto 10px;
 }
+.lineeee{
+    background-color: blue;
+    height: 3px;
+    width: 60px;
+    margin: 0 auto 10px;
+}
 #copyright{
     background-color: rgb(14,29,52) !important;
     padding: 40px 0 20px 0 !important;
 }
 
-.col-3 a{
-    display: grid !important;
-}
 
 .col-3 a:hover{
     color: #fff !important;
